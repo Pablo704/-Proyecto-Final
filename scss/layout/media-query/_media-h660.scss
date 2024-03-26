@@ -1,0 +1,10 @@
+// media-query height
+
+@media (max-height: 660px){
+    .barra-lateral .nombre-pagina{
+        margin-bottom: 5px;
+    }
+    .barra-lateral .navegacion{
+        margin-bottom: 3px;
+    }
+}

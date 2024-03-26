@@ -1,0 +1,141 @@
+@mixin sizes($width, $height){
+    width: $width;
+    height: $height;
+}
+.barra-lateral{
+    @include sizes(250px, 100%);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 20px 15px;
+    background-color: var(--color-barra-lateral);
+    transition: width 0.5s ease, left 0.5s ease;
+    z-index: 50;
+    margin-top: 0;
+span{
+        width: 100px;
+        white-space: nowrap;
+        font-size: 18px;
+        text-align: left;
+        opacity: 1;
+        transition: opacity 0.5s ease, width 0.5s ease;
+    }
+span.oculto{
+        opacity: 0;
+        width: 0;
+}
+.nombre-boton{
+            .nombre-pagina{
+                @include sizes(100%, 45px);
+                margin-bottom: 40px;
+                display: flex;
+                align-items: center;
+                ion-icon{
+                min-width: 50px;
+                font-size: 40px;}
+            span{
+                margin-left: 5px;
+                font-size: 25px;}
+                }
+            .button{
+                    text-decoration: none;
+                    list-style: none;
+                    width: 100%;
+                    height: 45px;
+                    /*Aca para cambiar luego la distancia de las rede del boton*/
+                    margin-bottom: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    border-radius: 10px;
+                    background-color: var(--color-boton);
+                    color: var(--color-boton-texto);
+                    ion-icon{
+                    min-width: 50px;
+                    font-size: 25px;
+                            }
+                    }
+                }
+                .navegacion{
+                    overflow-y: auto;
+                    overflow-x: hidden;
+                //
+                ::-webkit-scrollbar{
+                    width: 5px;
+                    }
+                //
+                ::-webkit-scrollbar-thumb{
+                    background-color: var(--color-scroll);
+                    border-radius: 5px;
+                    }
+                //
+                ::-webkit-scrollbar-thumb:hover{
+                    background-color: var(--color-scroll-hover);
+                    }
+                //
+                li{
+                        list-style: none;
+                        display: flex;
+                        margin-bottom: 5px;
+                    }
+                //
+                a{
+                    @include sizes(100%, 35px);
+                    display: flex;
+                    align-items: center;
+                    text-decoration: none;
+                    border-radius: 10px;
+                    background-color: var(--color-barra-lateral);
+                    color: var(--color-texto-menu);
+                }
+                //
+                a:hover{
+                    background-color: var(--color-menu-hover);
+                    color: var(--color-menu-hover-texto);
+                }
+                ion-icon{
+                    min-width: 50px;
+                    font-size: 20px;
+                }
+                //------>linea
+                .linea2{
+                    width: 100%;
+                    margin-bottom: 10px;
+                    height: 2px;
+                    margin-top: 15px;
+                    background-color: var(--color-linea)
+                }
+            }
+        
+.resto-pag{
+            li{
+                #inicio{
+                        background-color: var(--color-menu-hover);
+                        color: var(--color-menu-hover-texto);
+                        }
+                #nosotros{
+                        background-color: var(--color-menu-hover);
+                        color: var(--color-menu-hover-texto);
+                        }
+                #tratamiento{
+                        background-color: var(--color-menu-hover);
+                        color: var(--color-menu-hover-texto);
+                        }
+                #lista-Precio{
+                        background-color: var(--color-menu-hover);
+                        color: var(--color-menu-hover-texto);
+                        }
+                #reservacion{
+                        background-color: var(--color-menu-hover);
+                        color: var(--color-menu-hover-texto);
+                        }
+
+                }
+        }
+}
+.mini-barra-lateral{
+    width: 80px;
+}

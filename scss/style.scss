@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+// base
+@import './base/color';
+@import './base/reset';
+
+
+
+// layout
+@import './layout/barra-lateral';
+
+// banner
+@import './layout/banner';
+
+
+// main
+@import './layout/main-gnral';
+@import './layout/vista-movil';
+
+// Carrucel
+@import './layout/Carrucel';
+
+//footer
+@import './base/footer';
+
+// media
+
+@import './layout/media-query/media-h660.scss';
+@import './layout/media-query/media-w425.scss';
+@import './layout/media-query/media-min425.scss';

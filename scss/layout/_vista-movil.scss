@@ -1,0 +1,27 @@
+.contenedor-B{
+    display: block;
+    
+    .primer-parrafo{
+        div{
+            .img2{
+                width: 216px;
+                height: 174px;
+                transform: translate(0, 5%);
+            }
+        }
+        p{
+           // background-color: red;
+            font-size: 20px;
+            padding: 1rem;
+            margin: 0.5rem;
+            width: auto;
+           }
+    }
+    .segundo-parrofo{
+        @extend .primer-parrafo
+    }
+    
+}
+        
+
+

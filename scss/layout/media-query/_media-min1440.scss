@@ -1,0 +1,87 @@
+@media only screen and (min-width: 426px) and (max-width: 768px){
+    .menu{
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25%;
+        cursor: pointer;
+        background-color: var(--color-boton);
+        color: var(--color-boton-texto);
+        right: 15px;
+        top: 15px;
+        z-index: 100;
+    }
+    .contenido{ 
+        display: flex;
+        width: 100%;
+        padding: 4% 2%;
+        height: 100vh;
+    }
+    .contenido .span{
+        color: aliceblue;
+    }
+    #main{
+        margin-left: 250px;
+        padding: 20px;
+        transition: margin-left 0.5s ease ;
+        .contenedor-C{
+                .container{
+                    width: 82%;
+                    height: 800px;
+                    transform: translate(-42%, -44%);
+                    .slide{
+                        .item{
+                            width: 250px;
+                            height: 400px;
+                            position: absolute;
+                            top: 50%;
+                            transform: translate(0, -50%);
+                            border-radius: 20px;  
+                            .content{
+                                top: 50%;
+                                left: 100px;
+                                width: 300px;
+                                text-align: left;
+                                color: var(--color-linea);
+                                transform: translate(0, -50%);
+                                
+                            }
+                        }
+                        .item:nth-child(1){
+                            top: 0;
+                            left: 0;
+                            transform: translate(0, 0);
+                            border-radius: 0;
+                            width: 100%;
+                            height: 100%;
+                        }
+                        .item:nth-child(2){
+                            left: 65%;
+                        }
+                        .item:nth-child(2) .content{
+                            display: none;
+                        }
+                        }
+                    }
+                    
+                }
+    }
+    }
+    #main.min-main {
+        margin-left: 80px;
+        .contenedor-C{
+            .container{
+                transform: translate(-48%, -44%);
+                width: 92%;
+                height: 800px;
+            }
+    }
+        
+    }
+    
+    
+    
