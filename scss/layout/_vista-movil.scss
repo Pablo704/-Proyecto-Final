@@ -16,6 +16,15 @@
             margin: 0.5rem;
             width: auto;
            }
+        ul{
+            li{
+                list-style: none;
+                font-size: 18px;
+                padding: 5px;
+                margin: 0.5rem;
+                width: auto;
+            }
+        }
     }
     .segundo-parrofo{
         @extend .primer-parrafo
