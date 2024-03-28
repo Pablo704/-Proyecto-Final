@@ -27,6 +27,20 @@
   background-color: bisque;
 }
 
+/*------------------Banner Principal*/
+.banner {
+  background-image: url(/imagenes/banner2.jpg);
+  text-align: start;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .barra-lateral {
   width: 250px;
   height: 100%;
@@ -154,20 +168,6 @@
 
 .mini-barra-lateral {
   width: 80px;
-}
-
-/*------------------Banner Principal*/
-.banner {
-  background-image: url(/imagenes/banner2.jpg);
-  text-align: start;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 10px;
-  padding: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
 }
 
 .contenedor-B {
@@ -332,7 +332,7 @@ footer div a .ion-icon {
     margin-bottom: 3px;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 450px) {
   .barra-lateral {
     position: fixed;
     left: -250px;
@@ -375,7 +375,7 @@ footer div a .ion-icon {
     width: auto;
   }
 }
-@media only screen and (min-width: 426px) {
+@media only screen and (min-width: 452px) {
   .menu {
     position: fixed;
     width: 50px;
