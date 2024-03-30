@@ -39,6 +39,14 @@
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
+.banner p, .banner h1 {
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 2px 2px 0px #000;
+}
+.banner h1 {
+  font-size: 30px;
+}
 
 .barra-lateral {
   width: 250px;
@@ -79,8 +87,12 @@
   font-size: 40px;
 }
 .barra-lateral .nombre-boton .nombre-pagina span {
-  margin-left: 5px;
+  -webkit-text-stroke: 2px --color-boton-texto;
   font-size: 25px;
+  margin-left: 5px;
+  font-weight: 50px;
+  color: transparent;
+  text-shadow: 1px 2px 0px #EEEEEE, 2px 3px 0px #FEDAE4, 3px 4px 0px #BA7D96;
 }
 .barra-lateral .nombre-boton .button {
   text-decoration: none;
@@ -146,6 +158,9 @@
   margin-top: 15px;
   background-color: var(--color-linea);
 }
+.barra-lateral .redes {
+  padding: 0;
+}
 .barra-lateral .resto-pag {
   padding: 0;
 }
@@ -194,7 +209,7 @@
   height: 174px;
   transform: translate(0, 5%);
 }
-.contenedor-B .primer-parrafo p, .contenedor-B .segundo-parrofo p {
+.contenedor-B .primer-parrafo p, .contenedor-B .segundo-parrofo p, .contenedor-B .primer-parrafo .banner h1, .contenedor-B .segundo-parrofo .banner h1, .banner .contenedor-B .primer-parrafo h1, .banner .contenedor-B .segundo-parrofo h1 {
   font-size: 20px;
   padding: 1rem;
   margin: 0.5rem;
@@ -249,6 +264,7 @@
   opacity: 0;
   animation: animate 1s ease-in-out 1 forwards;
   color: #600000;
+  text-shadow: 2px 2px 0px rgba(238, 238, 238, 0.9333333333);
 }
 .container .slide .item .content .name-G {
   font-size: 40px;
@@ -261,6 +277,7 @@
   opacity: 0;
   animation: animate 1s ease-in-out 0.3s 1 forwards;
   color: #600000;
+  text-shadow: 2px 2px 0px rgba(238, 238, 238, 0.9333333333);
 }
 .container .slide .item .content button {
   padding: 10px 20px;
@@ -386,7 +403,7 @@ footer div a .ion-icon {
     width: auto;
   }
 }
-@media only screen and (min-width: 551px) {
+@media only screen and (min-width: 551px) and (max-width: 1024px) {
   .menu {
     position: fixed;
     width: 50px;
@@ -416,6 +433,12 @@ footer div a .ion-icon {
     margin-left: 250px;
     padding: 20px;
     transition: margin-left 0.5s ease;
+  }
+  #main #contenedor-bienvenidos #div-bienvenidos p, #main #contenedor-bienvenidos #div-bienvenidos .banner h1, .banner #main #contenedor-bienvenidos #div-bienvenidos h1 {
+    font-size: 20px;
+  }
+  #main #contenedor-bienvenidos #div-bienvenidos #img-bienvenidos {
+    width: 100%;
   }
   #main .contenedor-C .container {
     width: 78%;
@@ -478,7 +501,7 @@ footer div a .ion-icon {
     height: 300px;
     transform: translate(5%, 5%);
   }
-  .contenedor-B .primer-parrafo p, .contenedor-B .segundo-parrofo p {
+  .contenedor-B .primer-parrafo p, .contenedor-B .segundo-parrofo p, .contenedor-B .primer-parrafo .banner h1, .banner .contenedor-B .primer-parrafo h1, .contenedor-B .segundo-parrofo .banner h1, .banner .contenedor-B .segundo-parrofo h1 {
     font-size: 20px;
     padding: 1rem;
     margin: 0.5rem;
@@ -489,7 +512,130 @@ footer div a .ion-icon {
     height: 174px;
     transform: translate(0, 5%);
   }
-  .contenedor-B .segundo-parrofo p {
+  .contenedor-B .segundo-parrofo p, .contenedor-B .segundo-parrofo .banner h1, .banner .contenedor-B .segundo-parrofo h1 {
+    font-size: 20px;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: auto;
+  }
+  footer {
+    height: 100px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .menu {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    cursor: pointer;
+    background-color: var(--color-boton);
+    color: var(--color-boton-texto);
+    right: 15px;
+    top: 15px;
+    z-index: 100;
+  }
+  .contenido {
+    display: flex;
+    width: 100%;
+    padding: 4% 2%;
+    height: 100vh;
+  }
+  .contenido .span {
+    color: aliceblue;
+  }
+  #main {
+    margin-left: 250px;
+    padding: 20px;
+    transition: margin-left 0.5s ease;
+  }
+  #main #contenedor-bienvenidos #div-bienvenidos h2 {
+    font-size: 35px;
+  }
+  #main #contenedor-bienvenidos #div-bienvenidos p, #main #contenedor-bienvenidos #div-bienvenidos .banner h1, .banner #main #contenedor-bienvenidos #div-bienvenidos h1 {
+    font-size: 25px;
+  }
+  #main #contenedor-bienvenidos #div-bienvenidos #img-bienvenidos {
+    width: 600px;
+    height: 600px;
+  }
+  #main .contenedor-C .container {
+    width: 78%;
+    height: 700px;
+    transform: translate(-39%, -39%);
+  }
+  #main .contenedor-C .container .slide .item {
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: 20px;
+  }
+  #main .contenedor-C .container .slide .item .content {
+    top: 50%;
+    left: 100px;
+    width: 300px;
+    text-align: left;
+    color: var(--color-linea);
+    transform: translate(0, -50%);
+  }
+  #main .contenedor-C .container .slide .item .content .name, #main .contenedor-C .container .slide .item .content .name-G {
+    font-size: 30px;
+  }
+  #main .contenedor-C .container .slide .item .content .des {
+    font-size: 20px;
+  }
+  #main .contenedor-C .container .slide .item:nth-child(1) {
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+  }
+  #main .contenedor-C .container .slide .item:nth-child(2) {
+    left: 65%;
+  }
+  #main .contenedor-C .container .slide .item:nth-child(2) .content {
+    display: none;
+  }
+  #main .contenedor-B #carouselExample .carousel-inner .carousel-item .d-block {
+    height: 900px;
+    width: 300px;
+  }
+  #main.min-main {
+    margin-left: 80px;
+  }
+  #main.min-main .contenedor-C .container {
+    transform: translate(-47%, -44%);
+    width: 90%;
+    height: 700px;
+  }
+  .contenedor-B {
+    display: block;
+  }
+  .contenedor-B .primer-parrafo div .img2, .contenedor-B .segundo-parrofo div .img2 {
+    width: 600px;
+    height: 300px;
+    transform: translate(5%, 5%);
+  }
+  .contenedor-B .primer-parrafo p, .contenedor-B .segundo-parrofo p, .contenedor-B .primer-parrafo .banner h1, .banner .contenedor-B .primer-parrafo h1, .contenedor-B .segundo-parrofo .banner h1, .banner .contenedor-B .segundo-parrofo h1 {
+    font-size: 20px;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: auto;
+  }
+  .contenedor-B .segundo-parrofo div div .img2 {
+    width: 250px;
+    height: 174px;
+    transform: translate(0, 5%);
+  }
+  .contenedor-B .segundo-parrofo p, .contenedor-B .segundo-parrofo .banner h1, .banner .contenedor-B .segundo-parrofo h1 {
     font-size: 20px;
     padding: 1rem;
     margin: 0.5rem;

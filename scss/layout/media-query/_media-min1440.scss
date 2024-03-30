@@ -1,4 +1,4 @@
-@media only screen and (min-width: 426px) and (max-width: 768px){
+@media only screen and (min-width: 1025px){
     .menu{
         position: fixed;
         width: 50px;
@@ -28,11 +28,28 @@
         margin-left: 250px;
         padding: 20px;
         transition: margin-left 0.5s ease ;
+
+        #contenedor-bienvenidos{
+            #div-bienvenidos{
+
+                h2{
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 25px;
+                }
+                #img-bienvenidos{
+                    width: 600px;
+                    height: 600px;
+                }
+                
+            }
+        }
         .contenedor-C{
                 .container{
-                    width: 82%;
-                    height: 800px;
-                    transform: translate(-42%, -44%);
+                    width: 78%;
+                    height: 700px;
+                    transform: translate(-39%, -39%);
                     .slide{
                         .item{
                             width: 250px;
@@ -48,7 +65,13 @@
                                 text-align: left;
                                 color: var(--color-linea);
                                 transform: translate(0, -50%);
-                                
+                                .name{
+                                    font-size: 30px;
+            
+                                }
+                                .des{
+                                    font-size: 20px;
+                                }
                             }
                         }
                         .item:nth-child(1){
@@ -69,18 +92,72 @@
                     }
                     
                 }
-    }
+        .contenedor-B{
+            #carouselExample{
+                .carousel-inner{
+                    .carousel-item{
+                        .d-block{
+                            height: 900px;
+                            width: 300px;
+                        }
+                    }
+                }
+            }
+        }
+    
     }
     #main.min-main {
         margin-left: 80px;
         .contenedor-C{
             .container{
-                transform: translate(-48%, -44%);
-                width: 92%;
-                height: 800px;
+                transform: translate(-47%, -44%);
+                width: 90%;
+                height: 700px;
             }
+    }    
     }
+    .contenedor-B{
+        display: block;
+        .primer-parrafo{
+            div{
+                .img2{
+                    width: 600px;
+                    height: 300px;
+                    transform: translate(5%, 5%);
+                }
+            }
+            p{
+               // background-color: red;
+                font-size: 20px;
+                padding: 1rem;
+                margin: 0.5rem;
+                width: auto;
+               }
+        }
+        .segundo-parrofo{
+            div{
+                div{
+                    .img2{
+                        width: 250px;
+                        height: 174px;
+                        transform: translate(0, 5%);
+                    }
+                }
+    
+            }
+            p{
+               // background-color: red;
+                font-size: 20px;
+                padding: 1rem;
+                margin: 0.5rem;
+                width: auto;
+               }
+        }
         
+    }
+    footer{
+        height: 100px;
+    }
     }
     
     

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 551px){
+@media only screen and (min-width: 551px) and (max-width: 1024px){
 
 
 .menu{
@@ -30,6 +30,19 @@
     margin-left: 250px;
     padding: 20px;
     transition: margin-left 0.5s ease ;
+    #contenedor-bienvenidos{
+        #div-bienvenidos{
+            p{
+                font-size: 20px;
+            }
+            #img-bienvenidos{
+                width: 100%;
+            }
+            
+        }
+    }
+    
+
     .contenedor-C{
             .container{
                 width: 78%;
@@ -102,6 +115,7 @@
 }    
 }
 .contenedor-B{
+
     display: block;
     .primer-parrafo{
         div{
