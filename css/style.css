@@ -39,12 +39,12 @@
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
-.banner p, .banner h1 {
+.banner div p, .banner div .tutulo-banner {
   color: #fff;
   font-size: 20px;
   text-shadow: 2px 2px 0px #000;
 }
-.banner h1 {
+.banner div .tutulo-banner {
   font-size: 30px;
 }
 
@@ -209,7 +209,7 @@
   height: 174px;
   transform: translate(0, 5%);
 }
-.contenedor-B .primer-parrafo p, .contenedor-B .segundo-parrofo p, .contenedor-B .primer-parrafo .banner h1, .contenedor-B .segundo-parrofo .banner h1, .banner .contenedor-B .primer-parrafo h1, .banner .contenedor-B .segundo-parrofo h1 {
+.contenedor-B .primer-parrafo p, .contenedor-B .segundo-parrofo p, .contenedor-B .primer-parrafo .banner div .tutulo-banner, .contenedor-B .segundo-parrofo .banner div .tutulo-banner, .banner div .contenedor-B .primer-parrafo .tutulo-banner, .banner div .contenedor-B .segundo-parrofo .tutulo-banner {
   font-size: 20px;
   padding: 1rem;
   margin: 0.5rem;
@@ -434,7 +434,7 @@ footer div a .ion-icon {
     padding: 20px;
     transition: margin-left 0.5s ease;
   }
-  #main #contenedor-bienvenidos #div-bienvenidos p, #main #contenedor-bienvenidos #div-bienvenidos .banner h1, .banner #main #contenedor-bienvenidos #div-bienvenidos h1 {
+  #main #contenedor-bienvenidos #div-bienvenidos p, #main #contenedor-bienvenidos #div-bienvenidos .banner div .tutulo-banner, .banner div #main #contenedor-bienvenidos #div-bienvenidos .tutulo-banner {
     font-size: 20px;
   }
   #main #contenedor-bienvenidos #div-bienvenidos #img-bienvenidos {
@@ -501,7 +501,7 @@ footer div a .ion-icon {
     height: 300px;
     transform: translate(5%, 5%);
   }
-  .contenedor-B .primer-parrafo p, .contenedor-B .segundo-parrofo p, .contenedor-B .primer-parrafo .banner h1, .banner .contenedor-B .primer-parrafo h1, .contenedor-B .segundo-parrofo .banner h1, .banner .contenedor-B .segundo-parrofo h1 {
+  .contenedor-B .primer-parrafo p, .contenedor-B .segundo-parrofo p, .contenedor-B .primer-parrafo .banner div .tutulo-banner, .banner div .contenedor-B .primer-parrafo .tutulo-banner, .contenedor-B .segundo-parrofo .banner div .tutulo-banner, .banner div .contenedor-B .segundo-parrofo .tutulo-banner {
     font-size: 20px;
     padding: 1rem;
     margin: 0.5rem;
@@ -512,7 +512,7 @@ footer div a .ion-icon {
     height: 174px;
     transform: translate(0, 5%);
   }
-  .contenedor-B .segundo-parrofo p, .contenedor-B .segundo-parrofo .banner h1, .banner .contenedor-B .segundo-parrofo h1 {
+  .contenedor-B .segundo-parrofo p, .contenedor-B .segundo-parrofo .banner div .tutulo-banner, .banner div .contenedor-B .segundo-parrofo .tutulo-banner {
     font-size: 20px;
     padding: 1rem;
     margin: 0.5rem;
@@ -556,10 +556,10 @@ footer div a .ion-icon {
   #main #contenedor-bienvenidos #div-bienvenidos h2 {
     font-size: 35px;
   }
-  #main #contenedor-bienvenidos #div-bienvenidos p, #main #contenedor-bienvenidos #div-bienvenidos .banner h1, .banner #main #contenedor-bienvenidos #div-bienvenidos h1 {
+  #main #contenedor-bienvenidos #div-bienvenidos p, #main #contenedor-bienvenidos #div-bienvenidos .banner div .tutulo-banner, .banner div #main #contenedor-bienvenidos #div-bienvenidos .tutulo-banner {
     font-size: 25px;
   }
-  #main #contenedor-bienvenidos #div-bienvenidos #img-bienvenidos {
+  #main #contenedor-bienvenidos #div-bienvenidos .bienvenidos-img {
     width: 600px;
     height: 600px;
   }
@@ -624,7 +624,7 @@ footer div a .ion-icon {
     height: 300px;
     transform: translate(5%, 5%);
   }
-  .contenedor-B .primer-parrafo p, .contenedor-B .segundo-parrofo p, .contenedor-B .primer-parrafo .banner h1, .banner .contenedor-B .primer-parrafo h1, .contenedor-B .segundo-parrofo .banner h1, .banner .contenedor-B .segundo-parrofo h1 {
+  .contenedor-B .primer-parrafo p, .contenedor-B .segundo-parrofo p, .contenedor-B .primer-parrafo .banner div .tutulo-banner, .banner div .contenedor-B .primer-parrafo .tutulo-banner, .contenedor-B .segundo-parrofo .banner div .tutulo-banner, .banner div .contenedor-B .segundo-parrofo .tutulo-banner {
     font-size: 20px;
     padding: 1rem;
     margin: 0.5rem;
@@ -635,7 +635,7 @@ footer div a .ion-icon {
     height: 174px;
     transform: translate(0, 5%);
   }
-  .contenedor-B .segundo-parrofo p, .contenedor-B .segundo-parrofo .banner h1, .banner .contenedor-B .segundo-parrofo h1 {
+  .contenedor-B .segundo-parrofo p, .contenedor-B .segundo-parrofo .banner div .tutulo-banner, .banner div .contenedor-B .segundo-parrofo .tutulo-banner {
     font-size: 20px;
     padding: 1rem;
     margin: 0.5rem;
