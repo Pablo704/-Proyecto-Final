@@ -485,46 +485,43 @@ footer div a .ion-icon {
     height: 900px;
     width: 300px;
   }
+  #main.min-main {
+    margin-left: 80px;
+  }
+  #main.min-main .contenedor-C .container {
+    transform: translate(-47%, -44%);
+    width: 90%;
+    height: 700px;
+  }
+  .contenedor-B {
+    display: block;
+  }
+  .contenedor-B .primer-parrafo div .img2, .contenedor-B .segundo-parrofo div .img2 {
+    width: 600px;
+    height: 300px;
+    transform: translate(5%, 5%);
+  }
+  .contenedor-B .primer-parrafo p, .contenedor-B .segundo-parrofo p, .contenedor-B .primer-parrafo .banner div .tutulo-banner, .banner div .contenedor-B .primer-parrafo .tutulo-banner, .contenedor-B .segundo-parrofo .banner div .tutulo-banner, .banner div .contenedor-B .segundo-parrofo .tutulo-banner {
+    font-size: 20px;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: auto;
+  }
+  .contenedor-B .segundo-parrofo div div .img2 {
+    width: 250px;
+    height: 174px;
+    transform: translate(0, 5%);
+  }
+  .contenedor-B .segundo-parrofo p, .contenedor-B .segundo-parrofo .banner div .tutulo-banner, .banner div .contenedor-B .segundo-parrofo .tutulo-banner {
+    font-size: 20px;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: auto;
+  }
+  footer {
+    height: 100px;
+  }
 }
-#main.min-main {
-  margin-left: 80px;
-}
-#main.min-main .contenedor-C .container {
-  transform: translate(-47%, -44%);
-  width: 90%;
-  height: 700px;
-}
-
-.contenedor-B {
-  display: block;
-}
-.contenedor-B .primer-parrafo div .img2, .contenedor-B .segundo-parrofo div .img2 {
-  width: 600px;
-  height: 300px;
-  transform: translate(5%, 5%);
-}
-.contenedor-B .primer-parrafo p, .contenedor-B .segundo-parrofo p, .contenedor-B .primer-parrafo .banner div .tutulo-banner, .banner div .contenedor-B .primer-parrafo .tutulo-banner, .contenedor-B .segundo-parrofo .banner div .tutulo-banner, .banner div .contenedor-B .segundo-parrofo .tutulo-banner {
-  font-size: 20px;
-  padding: 1rem;
-  margin: 0.5rem;
-  width: auto;
-}
-.contenedor-B .segundo-parrofo div div .img2 {
-  width: 250px;
-  height: 174px;
-  transform: translate(0, 5%);
-}
-.contenedor-B .segundo-parrofo p, .contenedor-B .segundo-parrofo .banner div .tutulo-banner, .banner div .contenedor-B .segundo-parrofo .tutulo-banner {
-  font-size: 20px;
-  padding: 1rem;
-  margin: 0.5rem;
-  width: auto;
-}
-
-footer {
-  height: 100px;
-}
-
 @media only screen and (min-width: 1025px) {
   .menu {
     position: fixed;
