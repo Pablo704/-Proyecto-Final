@@ -434,10 +434,10 @@ footer div a .ion-icon {
     padding: 20px;
     transition: margin-left 0.5s ease;
   }
-  #main #contenedor-bienvenidos #div-bienvenidos p, #main #contenedor-bienvenidos #div-bienvenidos .banner div .tutulo-banner, .banner div #main #contenedor-bienvenidos #div-bienvenidos .tutulo-banner {
+  #main #contenedor-bienvenidos .bienvenidos p, #main #contenedor-bienvenidos .bienvenidos .banner div .tutulo-banner, .banner div #main #contenedor-bienvenidos .bienvenidos .tutulo-banner {
     font-size: 20px;
   }
-  #main #contenedor-bienvenidos #div-bienvenidos #img-bienvenidos {
+  #main #contenedor-bienvenidos .bienvenidos #img-bienvenidos {
     width: 100%;
   }
   .contenedor-C .container {
